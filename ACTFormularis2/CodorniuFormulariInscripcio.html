@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+
+<style>
+
+    .contenedor {
+        display: flex;
+        font-size: 20px;
+    }
+
+    .div1 {
+       width: 50%;
+    }
+
+    .div2 {
+       width: 50%;
+    }
+
+    .form1 {
+        padding: 20px;
+        text-align: justify;
+    }
+
+</style>
+</head>
+
+<body style="background-color: rgb(236, 224, 188);">
+
+<div style="background-color: rgb(228, 198, 133);">
+    <h1 style="text-align: center; font-size: 40px;">FORMULARI D'INSCRIPCIÓ PER A LA MARXA SENDERISTA</h1>
+</div>
+
+<div class="contenedor">
+<div class="div1">
+<form class="form1">
+    <label for="name1">Nom:</label>
+    <input type="text" name="name1" id="name1" placeholder="Exemple" size="10">
+    <label for="name2">Cognom:</label>
+    <input type="text" name="name2" id="name2" placeholder="Exemple" size="10">
+    <br>
+    <br>
+    <label for="dni">DNI:</label>
+    <input type="text" name="dni" id="dni" placeholder="12345678A" size="10">
+    <label for="tel">Telèfon:</label>
+    <input type="text" name="tel" id="tel" size="10" placeholder="999-999-999">
+    <br>
+    <br>
+    <label for="email2">Correu electrònic:</label>
+    <input type="email" name="email2" id="email2" placeholder="exemple@exemple.com">
+    <br>
+    <br>
+    <label for="date">Data de naixement:</label>
+    <input type="date" name="date" id="date">
+    <br>
+    <br>
+    <label for="adreça1">Adreça:</label>
+    <input type="text" name="adreça1" id="adreça1">
+    <br>
+    <br>
+    <label for="codpostal1">Codi Postal:</label>
+    <input type="text" name="codpostal1" id="codpostal1">
+    <br>
+    <br>
+    <label for="sexe">Sexe:</label>
+    <input type="radio" name="sexe" id="sexe">Masculi
+    <input type="radio" name="sexe" id="sexe">Femeni
+    <input type="radio" name="sexe" id="sexe">No ho vull indicar
+    
+</form>
+</div>
+
+<div class="div2">
+<form class="form1">
+    <label for="cor">Tens alguna malaltia del cor?</label>
+    <br>
+    <input type="radio" name="cor" id="cor">Si
+    <input type="radio" name="cor" id="cor">No  
+    <br>
+    <br>
+    <label for="alergia">Tens alguna alèrgia?</label>
+    <br>
+    <input type="radio" name="alergia" id="alergia">Si
+    <input type="radio" name="alergia" id="alergia">No  
+    <br>
+    <br>
+    <label for="alergia2">En cas afirmatius indicar quina alèrgies tens:</label>
+    <input type="text" name="alergia" id="alergia">
+    <br>
+    <br>
+    <label for="marxa">A quina de les dues marxes et vols apuntar? (Nomes pots una)</label>
+    <br>
+    <input type="radio" name="marxa" id="marxa">Marxa curta
+    <input type="radio" name="marxa" id="marxa">Marxa llarga
+    <br>
+    <br>
+    <label for="puntuacio">Posa una puntuació del 1 al 10 a les rutes elegides aquesta any</label>
+    <input type="range" name="puntuacio" id="puntuacio" min="1" max="10">
+    <br>
+    <br>
+    <label for="preferencia">Elegeix les postres que més t'agradin</label>
+    <br>
+    <input type="checkbox" name="preferencia" id="preferencia">Fruita
+    <input type="checkbox" name="preferencia" id="preferencia">Iogur
+    <input type="checkbox" name="preferencia" id="preferencia">Flam
+    <input type="checkbox" name="preferencia" id="preferencia">Xocolate
+    <br>
+    <br>
+    <label for="puja">Penja aqui el rebut de la transferencia del pagament</label>
+    <br>
+    <input type="file" name="puja" id="puja">
+
+</form>
+</div>
+</div>
+</body>
+</html>
